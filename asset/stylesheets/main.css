@@ -1,0 +1,87 @@
+
+header{
+	text-align: center;
+}
+body .portal{
+	display: block;
+	text-align: center;
+
+
+}
+.portal img{
+	height: 280px;
+	border-radius: 8%;
+}
+.header{
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+/*
+-------------------------
+Parents
+-------------------------
+*/
+.branch img{
+	height: 280px;
+	border-radius: 8%;
+
+}
+.upper,.lower {
+	width: ;
+	margin: 3% 7% 3% 7% ;
+}
+.instru{
+	margin-left: 32%;
+	width: ;
+}
+@media all and (max-width: 400px){
+	.branch img{
+		width: 100%;
+
+	}
+}
+@media(max-width: 500px){
+	.instru{
+		margin-left: 0;
+	}
+}
+/*
+===================
+Footer
+===================
+*/
+.footer{
+	text-align: center;
+	background-color: #343b40;
+	color: #fff;
+	height: 60px;
+	margin-top: 20px;
+
+}
+#bottomm div img{
+	height: 350px;
+}
+#bottomm img{
+	border-radius: 20%;
+}
+.gate img{
+	height: 60vh;
+	width: 100%;
+}
+#bottomm{
+	 width: 100%;
+  height: 60vh;
+  background: url(../images/bg-11-full.jpg) top center;
+  background: linear-gradient(to top left, #33ccff 0%, #99ffcc 42%);
+  background: linear-gradient(to top left, #66ffff 0%, #ffffff 83%);
+  background-size: cover;
+  position: relative;
+}
+
+
+.sel img{
+	width: 100%;
+	height: 60vh;
+	border-radius: 5%;
+
+}

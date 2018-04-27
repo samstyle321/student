@@ -1,0 +1,124 @@
+table tr td,th{
+	text-align: center;
+	
+}
+table{
+	width: 100%;
+}
+
+/*===========
+login
+============*/
+.wrap form{
+	
+	/*border: 5px solid gray;
+	border-radius: 5%;*/
+	padding: 20px;
+	width: 30%;
+}
+
+.wrap .main h2{
+	color: #5d5;
+	font-size: ;
+}
+.wrap .main img{
+	width: 10%;
+	height: 20vh;
+
+}
+@media(max-width: 400px){
+	.wrap .main img{
+		width: 40%;
+	}
+}
+a{
+	text-decoration: none;
+}
+.wrap form input{
+	outline: 0;
+	border:0;
+	padding: 0 1em;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px 0 5px;
+}
+
+.data {
+	    width: 100%;
+	    position: relative;
+	    border-bottom: 2px solid rgba(255,255,255,0.24);
+	    margin-bottom: 30px;
+}
+.data:hover{
+		border-color: #5d5;
+		transition:0.5s linear;
+	}
+.wrap form{
+	background-color: transparent;
+	padding: 40px 20px 40px 20px;
+}
+.wrap form #btn{
+	background-color: #5d5;
+	color: #fff;
+	width: 60%;
+	font-weight: 600;
+	border-radius: 25px;
+}
+::placeholder{
+	color: #5d5;
+	font-weight: 600;
+}
+.wrap img{
+	border-radius: 170px;
+	width: 10%;
+}
+.wrap .main{
+width: 100%;
+ height: 100vh;
+background-image: url("../images/bg-11-full.jpg");
+background-image: url("../images/loginn.jpg");
+background-size: cover;
+position: relative;
+}
+@media(max-width: 500px){
+.wrap form input{
+	width: 60%;
+	height: 7vh;
+}
+@media(max-width: 500px){
+	.wrap form{
+		width: 80%;
+	}
+}
+@media(max-width: 500px){
+	::placeholder{
+		font-size: 10px;
+		font-weight: 100;
+	};
+}
+}
+
+
+/*==========
+tcomputer
+============*/
+.tbody input,label{
+	width: 11%;
+	text-align: center;
+}
+.tbody label{
+	width: 10.6%
+}
+
+.bkimg{
+	background: url(../images/bg-11-full.jpg) top center;
+}
+
+.body{
+	background: url(../images/bg-11-full.jpg);
+}

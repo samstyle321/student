@@ -1,0 +1,51 @@
+
+body{
+	background-color: #1a1a1ad4;
+	background-size: cover;
+}
+
+form label{
+
+	color: #ddd;
+}
+form input{
+	background-color: transparent;
+	border: solid 1px #ddd;
+	color: #fff;
+}
+#upd{
+	background-color: #1ab188;
+	color: #fff;
+	width: 60%;
+	font-weight: 600;
+	border-radius: 10px;
+	padding: 15px 0;
+	font-size: 25px;
+
+}
+h2,h1{
+	color: #fff;
+}
+h1{
+	background-color: #1ab188;
+	padding: 10px 0;
+	font-size: 38px;
+}
+.th{
+	margin:0 0 13% 25%;
+
+}
+.pr{
+	margin:0 0 5% 30%;
+}
+#myform{
+	width:20%; 
+}
+h1{
+	margin-top: -8px;
+	width: 100%;
+}
+.wrap{
+	width: 100%;
+}
+
