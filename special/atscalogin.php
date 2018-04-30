@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 	 $myusername = mysqli_real_escape_string($db, $_POST['username']);
 	  $mypassword = mysqli_real_escape_string($db, $_POST['password']);
 
-	  $sql = "SELECT * fROM oslogin WHERE username = '$myusername' and password = '$mypassword'";
+	  $sql = "SELECT * fROM scalogin WHERE username = '$myusername' and password = '$mypassword'";
 	  $result = mysqli_query($db, $sql);
 	  $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	  $count = mysqli_num_rows($result);
@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 	  if($count==1)
 	  {
 	  			$_SESSION['login_user'] = $myusername;
-	  			header("location: opencomputer.php");
+	  			header("location: atsca.php");
 	  }
 	  else
 	  {

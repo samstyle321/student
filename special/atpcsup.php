@@ -11,11 +11,12 @@
       <center>
   <div class="main">
   <h1>Updation</h1>
-  <form name="myform" action="scaupdate.php" method="post">
+  <h2>Practical</h2>
+  <form name="myform" action="atpcsup.php" method="post">
     <center><label>Roll-no</label>
     <input type="number" name="rollno" autocomplete="off"><br><br>
-    <label>SCA</label>
-    <input type="text" name="sca" autocomplete="off"><br><br>
+    <label>PCS</label>
+    <input type="text" name="pcsp" autocomplete="off"><br><br>
     <input type="submit" name="update" value="Update" id="upd"></center>
     
   </form>
@@ -30,7 +31,7 @@ if(isset($_POST['update']))
    $hostname = "localhost";
    $username = "root";
    $password = "";
-   $databaseName = "majorp";
+   $databaseName = "pcsp";
    
    $connect = mysqli_connect($hostname, $username, $password, $databaseName);
    
@@ -39,11 +40,11 @@ if(isset($_POST['update']))
    // get values form input text and number
    
    $rollno = $_POST['rollno'];
-   $sca = $_POST['sca'];
-  
+   $pcsp = $_POST['pcsp'];
+   
            
    // mysql query to Update data
-   $query = "UPDATE `computer` SET `sca`=$sca WHERE `rollno` = $rollno";
+   $query = "UPDATE `computerat` SET `pcsp`=$pcsp WHERE `rollno` = $rollno";
    
    $result = mysqli_query($connect, $query);
    

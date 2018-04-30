@@ -24,14 +24,24 @@ include('../config.php');
 </head>
 <body>
 	<center><h4>Computer 6th Sem </h4>
-	<h4>Internal</h4></center>
+	<h4>Attendence</h4></center>
 	<table border = '3' class="table-responsive">
 		<tr>
-			<th>Roll-No.</th>
-			<th>Name</th>
+			<th rowspan="2">Roll-No.</th>
+			<th rowspan="2">Name</th>
+			<th colspan="6">Theory</th>
+			<th colspan="8">Practical</th>
+		</tr>
+		<tr>
 			<th>CG</th>
 			<th>OSS</th>
 			<th>BOM</th>
+			<th>Elective</th>
+			<th>Total</th>
+			<th>%age</th>
+			<th>CG</th>
+			<th>OSS</th>
+			
 			<th>Elective</th>
 			<th>Major</th>
 			<th>PCS</th>
@@ -39,36 +49,41 @@ include('../config.php');
 			<th>Total</th>
 			<th>%age</th>
 		</tr>
-		
-	
+			
 		<?php
 
-			$sql = "SELECT * FROM computer;";
+			$sql = "SELECT * FROM computerat;";
 			$result = mysqli_query($db,$sql);
 			$resultCheck = mysqli_num_rows($result);
 	
 			if($resultCheck > 0){
 				while($row = mysqli_fetch_assoc($result)){
 					echo "<tr>";
-					echo "<td name='rollno'>" .$row['rollno']  ."</td>";
+					echo "<td>" .$row['rollno']  ."</td>";
 					echo "<td>" .$row['name']  ."</td>";
-					echo "<td>" .$row['cg']  ."</td>";
-					echo "<td>" .$row['oss']  ."</td>";
-					echo "<td>" .$row['bom']  ."</td>";
-					echo "<td>" .$row['elective']  ."</td>";
-					echo "<td>" .$row['major']  ."</td>";
-					echo "<td>" .$row['pcs']  ."</td>";
-					echo "<td>" .$row['sca']  ."</td>";
-					echo "<td>" .$row['total']  ."</td>";
-					echo "<td>" .$row['page']  ."</td>";
+					echo "<td>" .$row['cgt']  ."</td>";
+					echo "<td>" .$row['osst']  ."</td>";
+					echo "<td>" .$row['bomt']  ."</td>";
+					echo "<td>" .$row['electivet']  ."</td>";
+					echo "<td>" .$row['totalt']  ."</td>";
+					echo "<td>" .$row['paget']  ."</td>";
+					echo "<td>" .$row['cgp']  ."</td>";
+					echo "<td>" .$row['ossp']  ."</td>";
+					echo "<td>" .$row['electivep']  ."</td>";
+					echo "<td>" .$row['majorp']  ."</td>";
+					echo "<td>" .$row['pcsp']  ."</td>";
+					echo "<td>" .$row['scap']  ."</td>";
+					echo "<td>" .$row['totalp']  ."</td>";
+					echo "<td>" .$row['pagep']  ."</td>";
 					echo "</tr>";
-				}
+			
+
+					}
 			}
-		?>
+	
+
+			?>
 	</table>
-	<center><a href="cgupdate.php"><button id="btn">Click Here To Update Records</button></a></center>
-	 
-
-
+	<center><a href="atelectiveup.php"><button id="btn">Click Here To Update Records</button></a></center>
 </body>
 </html>

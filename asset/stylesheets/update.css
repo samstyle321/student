@@ -32,7 +32,7 @@ h1{
 	font-size: 38px;
 }
 .th{
-	margin:0 0 13% 25%;
+	margin:0 0 5% 25%;
 
 }
 .pr{
@@ -47,5 +47,25 @@ h1{
 }
 .wrap{
 	width: 100%;
+}
+.roll h3{
+	color: #ddd;
+	display: inline-block;
+}
+.roll input{
+	background-color: transparent;
+	border: solid 1px #ddd;
+	color: #fff;
+
+
+
+}
+.roll{
+	text-align: center;
+}
+@media(max-width: 300px){
+#myfor h2{
+	font-size: 18px;
+}
 }
 

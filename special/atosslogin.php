@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 	  if($count==1)
 	  {
 	  			$_SESSION['login_user'] = $myusername;
-	  			header("location: opencomputer.php");
+	  			header("location: atoss.php");
 	  }
 	  else
 	  {

@@ -30,7 +30,8 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 ?>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <script src="https://use.fontawesome.com/cac72cc81c.js"></script>
 	 <link rel="stylesheet" type="text/css" href="../asset/stylesheets/bootstrap.css">
 	 <link rel="stylesheet" type="text/css" href="../asset/stylesheets/main.css">
