@@ -121,4 +121,10 @@ tcomputer
 
 .body{
 	background: url(../images/bg-11-full.jpg);
+	background: linear-gradient(to bottom right, #99ccff 2%, #ffffff 76%);
+}
+@media(max-width: 300px){
+	.body img{
+		height: 20vh;
+	}
 }
