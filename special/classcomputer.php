@@ -29,21 +29,21 @@ include('../config.php');
 	</style>
 </head>
 <body>
-	<center><h4>Computer 6th Sem </h4>
-	<h4>Internal</h4></center>
+	<center><h4>Department of Computer Engineering <br> 6th Sem </h4>
+	<h4>Mid Sessional</h4></center>
 	<table border = '3' class="table-responsive" name="myform">
 		<tr>
 			<th>Roll-No.</th>
 			<th>Name</th>
-			<th>CG</th>
-			<th>OSS</th>
-			<th>BOM</th>
-			<th>Elective</th>
-			<th>Major</th>
-			<th>PCS</th>
-			<th>SCA</th>
-			<th>Total</th>
-			<th>%age</th>
+			<th>CG<br>50</th>
+			<th>OSS<br>50</th>
+			<th>BOM<br>50</th>
+			<th>Elective<br>50</th>
+			<th>Major<br>100</th>
+			<th>PCS<br>50</th>
+			<th>SCA<br>25</th>
+			<th>Total<br>375</th>
+			<th>%age<br>100</th>
 		</tr>
 		
 	
@@ -72,9 +72,9 @@ include('../config.php');
 			}
 		?>
 	</table>
-	<div class="col-md-4 col-sm-12"><a href="add.php"><button id="btn">Add Student</button></a></div>
-	<div class="col-md-4 col-sm-12"><a href="classupdate.php"><button id="btn">Click Here To Update Records</button></a></div>
-	<div class="col-md-4 col-sm-12"><a href="del.php"><button id="btn">Delete Student</button></a></div>
+	<div class="col-md-4 col-sm-12"><a href="add.php" target="_blank"><button id="btn">Add Student</button></a></div>
+	<div class="col-md-4 col-sm-12"><a href="classupdate.php" target="_blank"><button id="btn">Click Here To Update Records</button></a></div>
+	<div class="col-md-4 col-sm-12"><a href="del.php" target="_blank"><button id="btn">Delete Student</button></a></div>
 	<script type="text/javascript">
     function add(){  
     	for (var i = 1; i >= 58; i++) {

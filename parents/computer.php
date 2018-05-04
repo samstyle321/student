@@ -11,8 +11,8 @@ include('../config.php');
 	<link rel="stylesheet" type="text/css" href="../asset/stylesheets/comp.css">
 </head>
 <body>
-	<center><h4>Computer 6th Sem </h4>
-	<h4>Internal</h4></center>
+	<center><h4>Department of Computer Engineering <br> 6th Sem </h4>
+	<h4>Mid Sessional</h4></center>
 	<table border = '3' class="table-responsive">
 		<tr>
 			<th>Roll-No.</th>
