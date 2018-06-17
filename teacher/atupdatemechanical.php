@@ -174,7 +174,8 @@ document.myfor.paget.value = cal;
 totalp = eval(Number(racp.value) + Number(mtp.value) + Number(cadp.value) + Number(cncp.value) + Number(pwp.value)  + Number(pcsp.value) + Number(scap.value));
 document.myfor.totalp.value = totalp;
 cal = eval((Number(totalp) * 100) / 350);
-document.myfor.pagep.value = cal;
+document.myfor.pagep.value = Math.round(cal);
+
         }
 
     </script>

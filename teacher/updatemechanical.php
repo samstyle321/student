@@ -138,8 +138,8 @@ var sca = document.myform.sca;
 total = eval(Number(bom.value) + Number(rac.value) + Number(mt.value) + Number(cnc.value) + Number(cad.value) + Number(pw.value) + Number(pcs.value) + Number(sca.value));
 document.myform.total.value = total;
 cal = eval((Number(total) * 100) / 425);
-document.myform.page.value = cal;
-        }
+document.myform.page.value = Math.round(cal);
+
 
     </script>
   </body>

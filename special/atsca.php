@@ -84,6 +84,6 @@ include('../config.php');
 
 			?>
 	</table>
-	<center><a href="atscaup.php"><button id="btn">Click Here To Update Records</button></a></center>
+	<center><a href="atscaup.php" target="_blank"><button id="btn">Click Here To Update Records</button></a></center>
 </body>
 </html>

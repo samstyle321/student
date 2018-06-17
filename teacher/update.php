@@ -136,7 +136,8 @@ var sca = document.myform.sca;
 total = eval(Number(cg.value) + Number(oss.value) + Number(bom.value) + Number(elective.value) + Number(major.value) + Number(pcs.value) + Number(sca.value));
 document.myform.total.value = total;
 cal = eval((Number(total) * 100) / 375);
-document.myform.page.value = cal;
+document.myform.page.value = Math.round(cal);
+
         }
 
     </script>

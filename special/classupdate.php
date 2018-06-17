@@ -70,12 +70,7 @@ include('../config.php');
 
 if(isset($_POST['update']))
 {
-   //$hostname = "localhost";
-   //$username = "root";
-   //$password = "";
-   //$databaseName = "majorp";
    
-   //$connect = mysqli_connect($hostname, $username, $password, $databaseName);
    
 
   

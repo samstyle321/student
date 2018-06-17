@@ -90,8 +90,8 @@ include('../config.php');
 
 			?>
 	</table>
-	<div class="col-md-4 col-sm-12"><a href="atadd.php"><button id="btn">Add Student</button></a></div>
-	<div class="col-md-4 col-sm-12"><a href="atclassup.php"><button id="btn">Click Here To Update Records</button></a></div>
-	<div class="col-md-4 col-sm-12"><a href="atdel.php"><button id="btn">Delete Student</button></a></div>
+	<div class="col-md-4 col-sm-12"><a href="atadd.php" target="_blank"><button id="btn">Add Student</button></a></div>
+	<div class="col-md-4 col-sm-12"><a href="atclassup.php" target="_blank"><button id="btn">Click Here To Update Records</button></a></div>
+	<div class="col-md-4 col-sm-12"><a href="atdel.php" target="_blank"><button id="btn">Delete Student</button></a></div>
 </body>
 </html>

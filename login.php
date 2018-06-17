@@ -38,9 +38,6 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 </head>
 <body>
 	<div class="wrap">
-			<!--<header>
-				<h1>Teacher log in</h1>
-			</header>-->
 		<div class="main">
 			<center>
 				<div><br>
@@ -60,11 +57,5 @@ if($_SERVER['REQUEST_METHOD'] =='POST'){
 			</center>
 		</div>
 	</div>
-
-	<!--<div class="footer">
-	   &copy; Copyright <strong></strong>. All Rights Reserved
-		<br>
-		GP Kangra
-	</div>-->
  </body>
 </html>

@@ -22,7 +22,7 @@ include('../config.php');
 </head>
 <body>
 	<center><h4>Computer 6th Sem </h4>
-	<h4>Internal</h4></center>
+	<h4>Attendence</h4></center>
 	<table border = '3' class="table-responsive">
 		<tr>
 			<th rowspan="2">Roll-No.</th>

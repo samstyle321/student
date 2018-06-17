@@ -173,7 +173,8 @@ document.myfor.paget.value = cal;
 totalp = eval(Number(ofcp.value) + Number(wmcp.value) + Number(iplcp.value) + Number(pcsp.value) + Number(majorp.value)+ Number(scap.value));
 document.myfor.totalp.value = totalp;
 cal = eval((Number(totalp) * 100) / 300);
-document.myfor.pagep.value = cal;
+document.myfor.pagep.value = Math.round(cal);
+
         }
 
     </script>
